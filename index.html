@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- !displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Recipe page</title>
 
-  <!-- Attribution style for editor and the challenge author. -->
+  <!-- !Link to main css stylesheet. -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- !Attribution style for editor and the challenge author. -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,6 +19,7 @@
 </head>
 <body>
 
+  <!-- ?Main heading and image -->
   <img src="./assets/images/image-omelette.jpeg" alt="" width="95%">
 
   <h1>Simple Omelette Recipe</h1>
@@ -23,16 +27,18 @@
   <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
   to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
 
+  <!-- ?Preparation section listing times for the recipe. -->
   <div class="prep">
     <h3>Preparation time</h3>
 
     <ul>
       <li><span>Total</span>: Approximately 10 minutes</li>
       <li><span>Preparation</span>: 5 minutes</li>
-      <li><span></span><span>Cooking</span>: 5 minutes</li>
+      <li><span>Cooking</span>: 5 minutes</li>
     </ul>
   </div>
   
+  <!-- ?Ingredients needed for the recipe. -->
   <h2>Ingredients</h2>
 
   <ul>
@@ -45,6 +51,7 @@
   
   <hr>
 
+  <!-- ?List of all the instructions needed to complete the recipe. -->
   <h2>Instructions</h2>
 
   <ol>
@@ -59,28 +66,32 @@
     <li><span>Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
   </ol>
 
+  <!-- ?Nutrition information. -->
   <h2>Nutrition</h2>
 
   <p>The table below shows nutritional values per serving without the additional fillings.</p>
 
-  <p>Calories</p>
-  <h6>277kcal</h6>
+  <div class="nutrition">
+    <p>Calories</p>
+    <h4>277kcal</h4>
 
-  <hr>
+    <hr>
 
-  <p>Carbs</p>
-  <h6>0g</h6>
+    <p>Carbs</p>
+    <h4>0g</h4>
 
-  <hr>
+    <hr>
 
-  <p>Protein</p>
-  <h6>20g</h6>
+    <p>Protein</p>
+    <h4>20g</h4>
 
-  <hr>
+    <hr>
 
-  <p>Fat</p>
-  <h6>22g</h6>
-  
+    <p>Fat</p>
+    <h4>22g</h4>
+  </div>
+
+  <!-- ?Credits footer -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Justin Collins</a>.
